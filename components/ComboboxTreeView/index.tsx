@@ -7,7 +7,6 @@ import clsx from "clsx";
 import { Combobox, Transition } from "@headlessui/react";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { random } from "lodash";
 
 export interface IData {
   children?: IData[];
